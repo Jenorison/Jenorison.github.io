@@ -1,0 +1,57 @@
+/* General Styling for Certification Page */
+.certifications {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.certification-item img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification-details {
+    max-width: 70%;
+}
+
+.certification-details h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.certification-details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Adjustments for Responsive Design */
+@media (max-width: 768px) {
+    .certification-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .certification-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%; /* Image takes full width in mobile view */
+    }
+
+    .certification-details {
+        max-width: 100%;
+    }
+}
